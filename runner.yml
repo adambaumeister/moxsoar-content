@@ -1,3 +1,9 @@
+info:
+  description: |
+    The default and central moxsoar content repository!
+  author: |
+    Adam Baumeister
+  version: 0.1
 runner:
   address: 0.0.0.0
   portmin: 8000
