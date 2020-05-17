@@ -11,3 +11,4 @@ runner:
 run:
   - integration: minemeld
   - integration: servicenow
+  - integration: tenable-sc

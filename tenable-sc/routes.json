@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "path": "/token",
+      "methods": [
+        {
+          "matchregex": "/api/now/table/incident",
+          "httpmethod": "POST",
+          "responseFile": "empty.json",
+          "responseCode": 200,
+          "cookies": [
+            {
+              "name": "TNS_SESSIONID",
+              "value": "iwonderifthisisarealcookiestring"
+            }            
+          ]
+        }
+      ]
+    }
+  ]
+}
