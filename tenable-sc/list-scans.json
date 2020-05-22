@@ -1,0 +1,41 @@
+{
+    "type": "regular",
+    "response": {
+        "usable": [
+            {
+                "id": "2",
+                "name": "test",
+                "policy": {
+                    "name": "example-policy"
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                },
+                "description": null
+            }
+        ],
+        "manageable": [
+            {
+                "id": "2",
+                "name": "test",
+                "policy": {
+                    "name": "example-policy"
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                },
+                "description": null
+            }
+        ]
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1406828340
+}

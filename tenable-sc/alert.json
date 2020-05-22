@@ -1,0 +1,25 @@
+{
+    "type" : "regular",
+    "response" : {
+        "usable" : [
+            {
+                "id" : "1",
+                "name" : "Test Alert 1",
+                "description" : "All Action Types, vuln query",
+                "status" : "0"
+            }
+        ],
+        "manageable" : [
+            {
+                "id" : "1",
+                "name" : "Test Alert 1",
+                "description" : "All Action Types, vuln query",
+                "status" : "0"
+            }
+        ]
+    },
+    "error_code" : 0,
+    "error_msg" : "",
+    "warnings" : [],
+    "timestamp" : 1424975381
+}

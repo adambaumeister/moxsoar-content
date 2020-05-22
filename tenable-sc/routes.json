@@ -20,6 +20,26 @@
           "responseCode": 200
         }
       ]
+    },
+    {
+      "path": "/rest/alert",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "alert.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/scan",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "list-scans.json",
+          "responseCode": 200
+        }
+      ]
     }
   ]
 }
