@@ -1,12 +1,11 @@
 {
   "routes": [
     {
-      "path": "/token",
+      "path": "/rest/token",
       "methods": [
         {
-          "matchregex": "/api/now/table/incident",
           "httpmethod": "POST",
-          "responseFile": "empty.json",
+          "responseFile": "login.json",
           "responseCode": 200,
           "cookies": [
             {
@@ -14,6 +13,11 @@
               "value": "iwonderifthisisarealcookiestring"
             }            
           ]
+        },
+        {
+          "httpmethod": "DELETE",
+          "responseFile": "empty.json",
+          "responseCode": 200
         }
       ]
     }

@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "path": "/api/now/table/incident/",
+      "methods": [
+        {
+          "matchregex": "/api/now/table/incident",
+          "httpmethod": "GET",
+          "responseFile": "table.json",
+          "responseCode": 200
+        }
+      ]
+    }
+  ]
+}
