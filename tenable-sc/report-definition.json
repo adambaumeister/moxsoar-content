@@ -1,0 +1,373 @@
+{
+    "type" : "regular",
+    "response" : {
+        "usable" : [
+            {
+                "id" : "3",
+                "name" : "Test",
+                "description" : "test",
+                "type" : "lasr",
+                "styleFamily" : "-1",
+                "definition" : {
+                    "columns" : [
+                        {
+                            "name" : "all"
+                        }
+                    ],
+                    "dataSource" : {
+                        "queryID" : 2,
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null
+                    },
+                    "dataPoints" : 1.7976931348623e+308,
+                    "lasrInfo" : {
+                        "benchmarks" : [
+                            "Faked Data Benchmark"
+                        ]
+                    }
+                },
+                "xmldefinition" : "a:4:{s:7:\"columns\";a:1:{i:0;a:1:{s:4:\"name\";s:3:\"all\";}}s:10:\"dataSource\";a:6:{s:7:\"queryID\";i:2;s:15:\"querySourceType\";s:10:\"cumulative\";s:13:\"querySourceID\";N;s:15:\"querySourceView\";s:3:\"all\";s:10:\"sortColumn\";N;s:13:\"sortDirection\";N;}s:10:\"dataPoints\";d:1.7976931348623157E+308;s:8:\"lasrInfo\";a:1:{s:10:\"benchmarks\";a:1:{i:0;s:20:\"Faked Data Benchmark\";}}}",
+                "encryptionPassword" : "",
+                "status" : "0",
+                "shareUsers" : [],
+                "emailUsers" : [],
+                "emailTargets" : "",
+                "emailTargetType" : "1",
+                "createdTime" : "1410369405",
+                "modifiedTime" : "1410369421",
+                "pubSites" : [],
+                "sources" : [
+                    {
+                        "id" : "3",
+                        "queryID" : "2",
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null,
+                        "iteratorID" : "-1",
+                        "resultStyle" : "list",
+                        "dataPoints" : 1.7976931348623e+308
+                    }
+                ],
+                "scanResult" : [],
+                "components" : [
+                    {
+                        "componentType" : "lasr",
+                        "dataPoints" : 1.7976931348623e+308,
+                        "columns" : "all"
+                    }
+                ],
+                "iterators" : [],
+                "schedule" : {
+                    "id" : "7",
+                    "type" : "template",
+                    "start" : "",
+                    "repeatRule" : "",
+                    "nextRun" : 0
+                },
+                "creator" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "owner" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "ownerGroup" : {
+                    "id" : "0",
+                    "name" : "Full Access",
+                    "description" : "Full Access group"
+                },
+                "attributeSet" : {
+                    "id" : "5",
+                    "name" : "test",
+                    "description" : ""
+                }
+            },
+            {
+                "id" : "4",
+                "name" : "Test2",
+                "description" : "",
+                "type" : "lasr",
+                "styleFamily" : "-1",
+                "definition" : {
+                    "columns" : [
+                        {
+                            "name" : "all"
+                        }
+                    ],
+                    "dataSource" : {
+                        "queryID" : 12,
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null
+                    },
+                    "dataPoints" : 1.7976931348623e+308,
+                    "lasrInfo" : {
+                        "benchmarks" : [
+                            "Faked Data Benchmark"
+                        ]
+                    }
+                },
+                "xmldefinition" : "a:4:{s:7:\"columns\";a:1:{i:0;a:1:{s:4:\"name\";s:3:\"all\";}}s:10:\"dataSource\";a:6:{s:7:\"queryID\";i:2;s:15:\"querySourceType\";s:10:\"cumulative\";s:13:\"querySourceID\";N;s:15:\"querySourceView\";s:3:\"all\";s:10:\"sortColumn\";N;s:13:\"sortDirection\";N;}s:10:\"dataPoints\";d:1.7976931348623157E+308;s:8:\"lasrInfo\";a:1:{s:10:\"benchmarks\";a:1:{i:0;s:20:\"Faked Data Benchmark\";}}}",
+                "encryptionPassword" : "",
+                "status" : "0",
+                "shareUsers" : [],
+                "emailUsers" : [],
+                "emailTargets" : "",
+                "emailTargetType" : "1",
+                "createdTime" : "1410369657",
+                "modifiedTime" : "1410369657",
+                "pubSites" : [],
+                "sources" : [
+                    {
+                        "id" : "4",
+                        "queryID" : "12",
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null,
+                        "iteratorID" : "-1",
+                        "resultStyle" : "list",
+                        "dataPoints" : 1.7976931348623e+308
+                    }
+                ],
+                "scanResult" : [],
+                "components" : [
+                    {
+                        "componentType" : "lasr",
+                        "dataPoints" : 1.7976931348623e+308,
+                        "columns" : "all"
+                    }
+                ],
+                "iterators" : [],
+                "schedule" : {
+                    "id" : "8",
+                    "type" : "template",
+                    "start" : "",
+                    "repeatRule" : "",
+                    "nextRun" : 0
+                },
+                "creator" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "owner" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "ownerGroup" : {
+                    "id" : "0",
+                    "name" : "Full Access",
+                    "description" : "Full Access group"
+                },
+                "attributeSet" : {
+                    "id" : "5",
+                    "name" : "test",
+                    "description" : ""
+                }
+            }
+        ],
+        "manageable" : [
+            {
+                "id" : "3",
+                "name" : "Test",
+                "description" : "test",
+                "type" : "lasr",
+                "styleFamily" : "-1",
+                "definition" : {
+                    "columns" : [
+                        {
+                            "name" : "all"
+                        }
+                    ],
+                    "dataSource" : {
+                        "queryID" : 2,
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null
+                    },
+                    "dataPoints" : 1.7976931348623e+308,
+                    "lasrInfo" : {
+                        "benchmarks" : [
+                            "Faked Data Benchmark"
+                        ]
+                    }
+                },
+                "xmldefinition" : "a:4:{s:7:\"columns\";a:1:{i:0;a:1:{s:4:\"name\";s:3:\"all\";}}s:10:\"dataSource\";a:6:{s:7:\"queryID\";i:2;s:15:\"querySourceType\";s:10:\"cumulative\";s:13:\"querySourceID\";N;s:15:\"querySourceView\";s:3:\"all\";s:10:\"sortColumn\";N;s:13:\"sortDirection\";N;}s:10:\"dataPoints\";d:1.7976931348623157E+308;s:8:\"lasrInfo\";a:1:{s:10:\"benchmarks\";a:1:{i:0;s:20:\"Faked Data Benchmark\";}}}",
+                "encryptionPassword" : "",
+                "status" : "0",
+                "shareUsers" : [],
+                "emailUsers" : [],
+                "emailTargets" : "",
+                "emailTargetType" : "1",
+                "createdTime" : "1410369405",
+                "modifiedTime" : "1410369421",
+                "pubSites" : [],
+                "sources" : [
+                    {
+                        "id" : "3",
+                        "queryID" : "2",
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null,
+                        "iteratorID" : "-1",
+                        "resultStyle" : "list",
+                        "dataPoints" : 1.7976931348623e+308
+                    }
+                ],
+                "scanResult" : [],
+                "components" : [
+                    {
+                        "componentType" : "lasr",
+                        "dataPoints" : 1.7976931348623e+308,
+                        "columns" : "all"
+                    }
+                ],
+                "iterators" : [],
+                "schedule" : {
+                    "id" : "7",
+                    "type" : "template",
+                    "start" : "",
+                    "repeatRule" : "",
+                    "nextRun" : 0
+                },
+                "creator" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "owner" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "ownerGroup" : {
+                    "id" : "0",
+                    "name" : "Full Access",
+                    "description" : "Full Access group"
+                },
+                "attributeSet" : {
+                    "id" : "5",
+                    "name" : "test",
+                    "description" : ""
+                }
+            },
+            {
+                "id" : "4",
+                "name" : "Test2",
+                "description" : "",
+                "type" : "lasr",
+                "styleFamily" : "-1",
+                "definition" : {
+                    "columns" : [
+                        {
+                            "name" : "all"
+                        }
+                    ],
+                    "dataSource" : {
+                        "queryID" : 12,
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null
+                    },
+                    "dataPoints" : 1.7976931348623e+308,
+                    "lasrInfo" : {
+                        "benchmarks" : [
+                            "Faked Data Benchmark"
+                        ]
+                    }
+                },
+                "xmldefinition" : "a:4:{s:7:\"columns\";a:1:{i:0;a:1:{s:4:\"name\";s:3:\"all\";}}s:10:\"dataSource\";a:6:{s:7:\"queryID\";i:2;s:15:\"querySourceType\";s:10:\"cumulative\";s:13:\"querySourceID\";N;s:15:\"querySourceView\";s:3:\"all\";s:10:\"sortColumn\";N;s:13:\"sortDirection\";N;}s:10:\"dataPoints\";d:1.7976931348623157E+308;s:8:\"lasrInfo\";a:1:{s:10:\"benchmarks\";a:1:{i:0;s:20:\"Faked Data Benchmark\";}}}",
+                "encryptionPassword" : "",
+                "status" : "0",
+                "shareUsers" : [],
+                "emailUsers" : [],
+                "emailTargets" : "",
+                "emailTargetType" : "1",
+                "createdTime" : "1410369657",
+                "modifiedTime" : "1410369657",
+                "pubSites" : [],
+                "sources" : [
+                    {
+                        "id" : "4",
+                        "queryID" : "12",
+                        "querySourceType" : "cumulative",
+                        "querySourceID" : null,
+                        "querySourceView" : "all",
+                        "sortColumn" : null,
+                        "sortDirection" : null,
+                        "iteratorID" : "-1",
+                        "resultStyle" : "list",
+                        "dataPoints" : 1.7976931348623e+308
+                    }
+                ],
+                "scanResult" : [],
+                "components" : [
+                    {
+                        "componentType" : "lasr",
+                        "dataPoints" : 1.7976931348623e+308,
+                        "columns" : "all"
+                    }
+                ],
+                "iterators" : [],
+                "schedule" : {
+                    "id" : "8",
+                    "type" : "template",
+                    "start" : "",
+                    "repeatRule" : "",
+                    "nextRun" : 0
+                },
+                "creator" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "owner" : {
+                    "id" : "1",
+                    "username" : "head",
+                    "firstname" : "Security Manager",
+                    "lastname" : ""
+                },
+                "ownerGroup" : {
+                    "id" : "0",
+                    "name" : "Full Access",
+                    "description" : "Full Access group"
+                },
+                "attributeSet" : {
+                    "id" : "5",
+                    "name" : "test",
+                    "description" : ""
+                }
+            }
+        ]
+    },
+    "error_code" : 0,
+    "error_msg" : "",
+    "warnings" : [],
+    "timestamp" : 1413401160
+}

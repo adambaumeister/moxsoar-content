@@ -32,6 +32,56 @@
       ]
     },
     {
+      "path": "/rest/repository",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "repository.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/credential",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "credential.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/zone",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "zones.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/reportDefinition",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "report-definition.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/asset",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "assets.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
       "path": "/rest/scan",
       "methods": [
         {

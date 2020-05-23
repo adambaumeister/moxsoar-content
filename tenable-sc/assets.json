@@ -1,0 +1,75 @@
+{
+    "type": "regular",
+    "response": {
+        "assets": [
+            {
+                "id": "1",
+                "name": "dnsnameTestPost",
+                "description": "",
+                "organization": {
+                    "id": "1",
+                    "name": "org1",
+                    "description": ""
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                }
+            },
+            {
+                "id": "28",
+                "name": "Test 1",
+                "description": "",
+                "organization": {
+                    "id": "1",
+                    "name": "org1",
+                    "description": ""
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                }
+            },
+            {
+                "id": "29",
+                "name": "Test 2",
+                "description": "",
+                "organization": {
+                    "id": "1",
+                    "name": "org1",
+                    "description": ""
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                }
+            },
+            {
+                "id": "30",
+                "name": "Test 3",
+                "description": "",
+                "organization": {
+                    "id": "1",
+                    "name": "org1",
+                    "description": ""
+                },
+                "ownerGroup": {
+                    "name": "exampleOwnerGroup"
+                },
+                "owner": {
+                    "name": "exampleOwnerName"
+                }
+            }
+        ]
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1412273607
+}
