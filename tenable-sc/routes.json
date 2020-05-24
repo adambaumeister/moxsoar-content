@@ -72,11 +72,51 @@
       ]
     },
     {
+      "path": "/rest/asset/",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "asset.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/asset/",
+      "methods": [
+        {
+          "httpmethod": "DELETE",
+          "responseFile": "empty.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
       "path": "/rest/asset",
       "methods": [
         {
           "httpmethod": "GET",
           "responseFile": "assets.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/plugin",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "plugins.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/assets",
+      "methods": [
+        {
+          "httpmethod": "POST",
+          "responseFile": "asset.json",
           "responseCode": 200
         }
       ]

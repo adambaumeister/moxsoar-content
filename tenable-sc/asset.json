@@ -1,0 +1,49 @@
+{
+    "type": "regular",
+    "response": {
+        "id": "1",
+        "name": "dnsnameTestPost",
+        "description": "",
+        "organization": {
+            "id": "1",
+            "name": "org1",
+            "description": ""
+        },
+        "ownerGroup": {
+            "name": "exampleOwnerGroup"
+        },
+        "owner": {
+            "name": "exampleOwnerName"
+        },
+        "viewableIPs" : [
+            {
+                "repository" : {
+                    "id" : "37",
+                    "name" : "ag repo1"
+                },
+                "ipList" : "192.168.1.1\n",
+                "ipCount" : "1"
+            },
+            {
+                "repository" : {
+                    "id" : "38",
+                    "name" : "jm ipv4"
+                },
+                "ipList" : "192.168.1.1\n",
+                "ipCount" : "1"
+            },
+            {
+                "repository" : {
+                    "id" : "39",
+                    "name" : "ipv6 rep"
+                },
+                "ipList" : "",
+                "ipCount" : "0"
+            }
+        ]
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1412273607
+}
