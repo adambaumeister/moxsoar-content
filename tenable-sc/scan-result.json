@@ -1,0 +1,13 @@
+{
+    "type": "regular",
+    "response": {
+        "id": "1",
+        "name": "Test Scan",
+        "description": "",
+        "status": "Completed"
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1407249641
+}

@@ -78,12 +78,7 @@
           "httpmethod": "GET",
           "responseFile": "asset.json",
           "responseCode": 200
-        }
-      ]
-    },
-    {
-      "path": "/rest/asset/",
-      "methods": [
+        },
         {
           "httpmethod": "DELETE",
           "responseFile": "empty.json",
@@ -122,8 +117,23 @@
       ]
     },
     {
+      "path": "/rest/scanResult/",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "scan-result.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
       "path": "/rest/scan",
       "methods": [
+        {
+          "httpmethod": "POST",
+          "responseFile": "new-scan.json",
+          "responseCode": 200
+        },
         {
           "httpmethod": "GET",
           "responseFile": "list-scans.json",

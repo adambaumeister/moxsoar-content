@@ -15,6 +15,9 @@
         "owner": {
             "name": "exampleOwnerName"
         },
+	"tags": "example",
+	"createdTime" : "1426871916",
+	"modifiedTime" : "1426871916",
         "viewableIPs" : [
             {
                 "repository" : {
@@ -29,7 +32,7 @@
                     "id" : "38",
                     "name" : "jm ipv4"
                 },
-                "ipList" : "192.168.1.1\n",
+                "ipList" : "192.168.1.2\n",
                 "ipCount" : "1"
             },
             {

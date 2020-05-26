@@ -1,0 +1,80 @@
+{
+    "type": "regular",
+    "response": {
+        "id": "4",
+        "creatorID": "1",
+        "ownerID": "1",
+        "name": "POSTtest",
+        "description": "This is a test for POST",
+        "ipList": "",
+        "type": "policy",
+        "policyID": "1000002",
+        "pluginID": "-1",
+        "repositoryID": "2",
+        "zoneID": "-1",
+        "dhcpTracking": "false",
+        "classifyMitigatedAge": "0",
+        "emailOnLaunch": "false",
+        "emailOnFinish": "false",
+        "timeoutAction": "import",
+        "scanningVirtualHosts": "false",
+        "rolloverType": "template",
+        "status": "0",
+        "createdTime": "1406815242",
+        "modifiedTime": "1406815242",
+        "maxScanTime": "3600",
+        "ownerGID": "0",
+        "reports": [],
+        "assets": [],
+        "credentials": [],
+        "numDependents": "0",
+        "schedule": {
+            "id": "17",
+            "dependentID": "14",
+            "objectType": "scan",
+            "type": "dependent",
+            "start": "",
+            "repeatRule": "",
+            "enabled": "true",
+            "nextRun": 0,
+            "dependent": {
+                "id": "14",
+                "name": "Daily IP Scan",
+                "description": "",
+                "status": "1024"
+            }
+        },
+        "policy": {
+            "id": "1000002",
+            "name": "POST TEST",
+            "description": "Test of post for use with scan post test"
+        },
+        "pluginPrefs": [],
+        "creator": {
+            "id": "1",
+            "username": "head3",
+            "firstname": "",
+            "lastname": ""
+        },
+        "owner": {
+            "id": "1",
+            "username": "head3",
+            "firstname": "",
+            "lastname": ""
+        },
+        "repository": {
+            "id": "2",
+            "name": "test",
+            "description": "test"
+        },
+        "ownerGroup": {
+            "id": "0",
+            "name": "Full Access",
+            "description": "Full Access group"
+        }
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1406815242
+}
