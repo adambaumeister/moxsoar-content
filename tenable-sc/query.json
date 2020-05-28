@@ -1,0 +1,57 @@
+{
+    "type": "regular",
+    "response": {
+        "id": "12",
+        "creatorID": "1",
+        "ownerID": "1",
+        "name": "Test Combo Filter 2",
+        "description": "",
+        "tool": "sumid",
+        "type": "vuln",
+        "tags": "",
+        "context": "",
+        "browseColumns": "",
+        "browseSortColumn": "",
+        "browseSortDirection": "ASC",
+        "createdTime": "1403620113",
+        "modifiedTime": "1403620113",
+        "status": "0",
+        "ownerGID": "0",
+        "targetGID": "-1",
+        "filters": [
+            {
+                "filterName": "ip",
+                "operator": "=",
+                "value": "192.168.1.100"
+            }
+        ],
+        "canManage": "true",
+        "canUse": "true",
+        "creator": {
+            "id": "1",
+            "username": "JohnD",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "owner": {
+            "id": "1",
+            "username": "JohnD",
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "ownerGroup": {
+            "id": "0",
+            "name": "Full Access",
+            "description": "Full Access group"
+        },
+        "targetGroup": {
+            "id": -1,
+            "name": "",
+            "description": ""
+        }
+    },
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1404224762
+}

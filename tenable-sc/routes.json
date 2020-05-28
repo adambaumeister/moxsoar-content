@@ -127,6 +127,26 @@
       ]
     },
     {
+      "path": "/rest/query",
+      "methods": [
+        {
+          "httpmethod": "POST",
+          "responseFile": "query.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/analysis",
+      "methods": [
+        {
+          "httpmethod": "POST",
+          "responseFile": "analysis.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
       "path": "/rest/scan",
       "methods": [
         {
