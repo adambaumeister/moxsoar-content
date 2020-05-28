@@ -1,0 +1,198 @@
+{
+    "type": "regular",
+    "response": [
+        {
+            "id": "1",
+            "status": "0",
+            "username": "head",
+            "ldapUsername": "",
+            "firstname": "",
+            "lastname": "",
+            "title": "",
+            "email": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "phone": "",
+            "fax": "",
+            "createdTime": "1433519288",
+            "modifiedTime": "1453477493",
+            "lastLogin": "1454349916",
+            "lastLoginIP": "172.20.0.0",
+            "mustChangePassword": "false",
+            "locked": "false",
+            "failedLogins": "0",
+            "authType": "tns",
+            "fingerprint": null,
+            "password": "SET",
+            "managedUsersGroups": [
+                {
+                    "id": "-1",
+                    "name": "All Groups",
+                    "description": "All Groups"
+                }
+            ],
+            "managedObjectsGroups": [
+                {
+                    "id": "-1",
+                    "name": "All Groups",
+                    "description": "All Groups"
+                }
+            ],
+            "preferences": [
+                {
+                    "name": "timezone",
+                    "value": "America/Nome",
+                    "tag": "system"
+                }
+            ],
+            "canUse": true,
+            "canManage": true,
+            "role": {
+                "id": "2",
+                "name": "Security Manager",
+                "description": "The Security Manager role has full access to all actions at the organization level. A Security Manager has the ability to create new groups and manage existing ones. A Security Manager can also define how users interact with other groups.\n\nThe ability to manage other users and their objects can be configured using group permissions on the Access tab of User add/edit. This includes viewing and stopping running scans and reports."
+            },
+            "responsibleAsset": {
+                "id": "19",
+                "name": "Windows Hosts",
+                "description": "The operating system detected has Windows installed.\n\nThis will be helpful for those getting started with Tenable.sc."
+            },
+            "group": {
+                "id": "0",
+                "name": "Full Access",
+                "description": "Full Access group"
+            },
+            "ldap": {
+                "id": "-1",
+                "name": "",
+                "description": ""
+            }
+        },
+        {
+            "id": "36",
+            "status": "0",
+            "username": "GroupA",
+            "firstname": "",
+            "lastname": "",
+            "title": "",
+            "email": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "phone": "",
+            "fax": "",
+            "createdTime": "1447966099",
+            "modifiedTime": "1453476062",
+            "lastLogin": "1449517376",
+            "lastLoginIP": "172.20.0.0",
+            "mustChangePassword": "false",
+            "locked": "false",
+            "failedLogins": "0",
+            "authType": "tns",
+            "fingerprint": null,
+            "password": "SET",
+            "managedUsersGroups": [
+                {
+                    "id": "-1",
+                    "name": "All Groups",
+                    "description": "All Groups"
+                }
+            ],
+            "managedObjectsGroups": [
+                {
+                    "id": "-1",
+                    "name": "All Groups",
+                    "description": "All Groups"
+                }
+            ],
+            "preferences": [
+                {
+                    "name": "timezone",
+                    "value": "America/Nome",
+                    "tag": "system"
+                }
+            ],
+            "canUse": true,
+            "canManage": true,
+            "role": {
+                "id": "2",
+                "name": "Security Manager",
+                "description": "The Security Manager role has full access to all actions at the organization level. A Security Manager has the ability to create new groups and manage existing ones. A Security Manager can also define how users interact with other groups.\n\nThe ability to manage other users and their objects can be configured using group permissions on the Access tab of User add/edit. This includes viewing and stopping running scans and reports."
+            },
+            "responsibleAsset": {
+                "id": "14",
+                "name": "Systems that have been Scanned",
+                "description": "This asset uses the Scan Summary plugin to detect if a host has been scanned by Nessus. The Scan Summary plugin contains the list of tests conducted during the most resent scan."
+            },
+            "group": {
+                "id": "2",
+                "name": "Group A",
+                "description": ""
+            }
+        },
+        {
+            "id": "37",
+            "status": "0",
+            "username": "GroupB",
+            "ldapUsername": "",
+            "firstname": "",
+            "lastname": "",
+            "title": "",
+            "email": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "country": "",
+            "phone": "",
+            "fax": "",
+            "createdTime": "1447966134",
+            "modifiedTime": "1452788397",
+            "lastLogin": "1452528350",
+            "lastLoginIP": "172.20.0.0",
+            "mustChangePassword": "false",
+            "locked": "false",
+            "failedLogins": "0",
+            "authType": "tns",
+            "fingerprint": null,
+            "password": "SET",
+            "managedUsersGroups": [],
+            "managedObjectsGroups": [],
+            "preferences": [
+                {
+                    "name": "timezone",
+                    "value": "America/Nome",
+                    "tag": "system"
+                }
+            ],
+            "canUse": true,
+            "canManage": true,
+            "role": {
+                "id": "2",
+                "name": "Security Manager",
+                "description": "The Security Manager role has full access to all actions at the organization level. A Security Manager has the ability to create new groups and manage existing ones. A Security Manager can also define how users interact with other groups.\n\nThe ability to manage other users and their objects can be configured using group permissions on the Access tab of User add/edit. This includes viewing and stopping running scans and reports."
+            },
+            "responsibleAsset": {
+                "id": "16",
+                "name": "Linux Hosts",
+                "description": "The operating system detected has Linux installed."
+            },
+            "group": {
+                "id": "3",
+                "name": "Group B",
+                "description": ""
+            },
+            "ldap": {
+                "id": "-1",
+                "name": "",
+                "description": ""
+            }
+        }
+    ],
+    "error_code": 0,
+    "error_msg": "",
+    "warnings": [],
+    "timestamp": 1454350034
+}

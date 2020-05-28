@@ -147,6 +147,56 @@
       ]
     },
     {
+      "path": "/rest/plugin/",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "plugin.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/user",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "user.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/deviceInfo",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "device.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/system",
+      "methods": [
+        {
+          "httpmethod": "GET",
+          "responseFile": "system.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
+      "path": "/rest/scan/",
+      "methods": [
+        {
+          "httpmethod": "DELETE",
+          "responseFile": "empty.json",
+          "responseCode": 200
+        }
+      ]
+    },
+    {
       "path": "/rest/scan",
       "methods": [
         {
