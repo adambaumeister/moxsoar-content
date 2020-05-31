@@ -1,11 +1,11 @@
 {
     "type" : "regular",
     "response" : {
-        "scanID" : "2",
+        "scanID" : "1",
         "scanResult" : {
             "initiatorID" : "1",
             "ownerID" : "1",
-            "scanID" : "2",
+            "scanID" : "1",
             "resultsSyncID" : -1,
             "jobID" : "143301",
             "repositoryID" : "1",

@@ -1,7 +1,7 @@
 {
     "type" : "regular",
     "response" : {
-        "id" : "11",
+        "id" : "1",
         "name" : "Weekly Scan",
         "description" : "",
         "details" : "Policy 'Basic 1'",

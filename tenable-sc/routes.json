@@ -193,6 +193,11 @@
           "httpmethod": "DELETE",
           "responseFile": "empty.json",
           "responseCode": 200
+        },
+        {
+          "httpmethod": "POST",
+          "responseFile": "launch-scan.json",
+          "responseCode": 200
         }
       ]
     },
